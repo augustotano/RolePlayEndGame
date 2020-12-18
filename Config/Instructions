@@ -1,0 +1,23 @@
+Anotaciones a tomar en cuenta:
+
+Se digitan una serie de personajes, seguida de una serie de encuentros donde participan esos personajes.
+El estado de los personajes después del encuentro se guarda, por lo que puede que no participe el personaje
+en ese encuentro.
+
+Para cargar un escenario, se tiene que seguir el siguiente formato:
+
+ClaseDeHeroe1,ClaseDeHeroe2,ClaseDeHeroe3;ClaseDeVillano1,ClaseDeVillano2,ClaseDeVillano3
+-
+ClaseDeEncuentro:numeroDePersonajeIngresadoBando1,numeroDePersonajeIngresadoBando1_numeroDePersonajeIngresadoBando2;ClaseDeEncuentro2,numeroDePersonajeIngresado3,numeroDePersonajeIngresado2
+
+ClaseDeHeroe se corresponde con el nombre de la clase de cada heroe (wizard, dwarf, darklord, etc).
+ClaseDeEncuentro se refiere a si es BattleEncounter o ExchangeEncounter. Es seguido de :
+
+numeroDePersonajeIngresado refiere al orden en el que se ingresaron los personajes, empezando en 0.
+Este numero identifica al personaje. 0 es el primero, 1 es el segundo, 2 es el tercero.
+NO se reinicia al empezar con los villanos. Si el ultimo heroe es el 4, el primer villano es el 5.
+Los bandos son separados con el caracter _ Siempre se debe iniciar con el bando de los heroes al declarar encuentros.
+
+Ejemplo de un encuentro de intercambio: EXCHANGEENCOUNTER:1,2,NombreDeItem
+
+No tiene por que ser exactamente ese numero de heroes, villanos o encuentros.

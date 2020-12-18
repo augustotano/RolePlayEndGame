@@ -1,0 +1,9 @@
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\obj\Debug\netstandard2.1\Classes.csprojAssemblyReference.cache
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\obj\Debug\netstandard2.1\Classes.AssemblyInfoInputs.cache
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\obj\Debug\netstandard2.1\Classes.AssemblyInfo.cs
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\obj\Debug\netstandard2.1\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\bin\Debug\netstandard2.1\Classes.deps.json
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\bin\Debug\netstandard2.1\Classes.dll
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\bin\Debug\netstandard2.1\Classes.pdb
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\obj\Debug\netstandard2.1\Classes.dll
+C:\Users\Augusto\Desktop\PII_EXAMEN_ROLEPLAY_ENDGAME\Classes\obj\Debug\netstandard2.1\Classes.pdb

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j7zf1mXAJR5vfUskDezYz+IMhmZf0isOYD3KHpy+YgcSb60QogF5uXK1MIbKSHjLEr3qyAE7ut3LaDpyXY9c8g==",
+  "dgSpecHash": "6AnsHcuzDPXX/9SyozD2DcCFzKIKQ+PcmlWqi5l3V9EM/y6hfqolB6DhGoQW0gqnk7O6xFxTNzd2IiSZ3IXHLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Augusto\\Desktop\\PII_EXAMEN_ROLEPLAY_ENDGAME\\Classes\\Classes.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Augusto\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Augusto\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
