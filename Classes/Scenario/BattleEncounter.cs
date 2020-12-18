@@ -17,6 +17,9 @@ namespace Classes
             this.Heroes = heroes;
             this.Villains = villains;
 
+            //Precondicion: No existen magos en el bando de los heroes.
+            //Poscondicion: Se agrega un mago a la lista para mantener el funcionamiento del programa.
+            //Invariantes: No hay cambios en los otros elementos de la lista de heroes, ni tampoco en la de villanos.
             try
             {
                 IEnumerable<Wizard> wizards = this.Heroes.OfType<Wizard>();

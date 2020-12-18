@@ -1,7 +1,7 @@
 Dwarf has been slain by Balrog,Aragorn has been slain by Balrog,;
 The Villains have won this encounter. 
 
-Elf has been slain by Black Dragon,Orc has been slain by Black Dragon,;
+Wizard has been slain by Black Dragon,Elf has been slain by Black Dragon,;
 The Villains have won this encounter. 
 
 

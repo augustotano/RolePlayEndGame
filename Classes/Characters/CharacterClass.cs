@@ -177,6 +177,9 @@ namespace Classes
 
                 if(removed == false)
                 {
+                    //Precondicion: que el booleano removed sea false
+                    //Poscondición: se envia un mensaje por consola, informando de la excepcion.
+                    //Invariantes: La lista de items se mantiene igual, el mensaje es el mismo.
                     throw new NoItemInInventoryException("You can't remove an item that you do not have.");
                 }
             }

@@ -54,6 +54,9 @@ namespace Classes
                 
                 if(!tradeSuccess)
                 {
+                    //Precondicion: Giver no tiene el item que quiere tradear, por lo que tradeSucess = false.
+                    //Poscondicion: Se envia un mensaje por consola informando de la excepcion.
+                    //Invariantes: No cambia la lista de items del receiver, el mensaje se mantiene igual.
                     throw new NoItemToTradeException($"{Giver.Name} doesn't have the requiered item.");
                 }
             }
@@ -81,6 +84,9 @@ namespace Classes
 
                 if(itemsListCopy.Count != 0)
                 {
+                    //PreCondicion: que itemListCopy todavia tenga objetos dentro, esto quiere decir que no se pudieron intercambiar todos los items
+                    //PosCondicion: se envia un mensaje por consola informando de la excepcion.
+                    //Invariante: No se agregan objetos que no existen al personaje, el mensaje es el mismo
                     throw new NotEnoughItemsToTrade($"Some items have been exchanged, but the giver did not have all the items it wanted to exchange.");
 
                 }

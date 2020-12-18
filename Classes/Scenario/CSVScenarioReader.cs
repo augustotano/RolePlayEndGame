@@ -59,6 +59,13 @@ namespace Classes
                         string[] eachCharacterBand = encounterType[1].Split(",");
                         list.Add(new ExchangeEncounter(this.CharacterDictionary.GetValueOrDefault(eachCharacterBand[0]),this.CharacterDictionary.GetValueOrDefault(eachCharacterBand[1]),eachCharacterBand[2]));
                     }
+                    else
+                    {
+                        //Precondición: Que el tipo de encuentro ingresado no haya podido ser manejado por los if else if
+                        //Poscondición: Se envía un mensaje por consola indicando de la excepcion.
+                        //Invariante: No se crea ningún nuevo encuentro, el mensaje siempre es el mismo.
+                        throw new InvalidEncounterException("The type of encounter doesn't exist or it is badly written");
+                    }
                 }
                 break;
             }
